@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+    <head>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Base</title>
+        <link rel="shortcut icon" href="./assets/img/" type="image/x-icon">
+    </head>
+    <body>
+        <main>
+            <form>
+                <h1>Realize o login</h1>
+                <ul>
+                    <li>Todos os campos devem estar preenchidos</li>
+                    <li>Usuario deve conter apenas letras e/ou numeros</li>
+                    <li>Usuario deve conter entre 3 e 12 caracteres</li>
+                    <li>Senha deve conter no minimo 6 caracteres</li>
+                </ul>
+                <div class="form-box">
+                    <label for="username">Username</label>
+                    <input type="text" class="username" placeholder="Digite o username">
+                    <p class="errUsername"></p>
+                </div>
+                <div class="form-box">
+                    <label for="email">Email</label>
+                    <input type="text" class="email" placeholder="Digite o email">
+                    <p class="errEmail"></p>
+                </div>
+                <div class="form-box">
+                    <label for="password">Senha</label>
+                    <input type="password" class="password" placeholder="Digite a password">
+                    <p class="errPassword"></p>
+                </div>
+                <div class="form-box">
+                    <label for="rPassword">Repetir Senha</label>
+                    <input type="password" class="rPassword" placeholder="Digite a senha">
+                    <p class="errRPassword"></p>
+                </div>
+                <button id="btn">Login</button>
+            </form>
+        </main>
+        <script src="./assets/js/bundle.js"></script>
+    </body>
+</html>
